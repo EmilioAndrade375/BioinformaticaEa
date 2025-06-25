@@ -29,7 +29,7 @@
 ![Mycobacterium tuberculosis](https://www.lifeder.com/wp-content/uploads/2018/09/mycobacterium-tuberculosis-1024x683.jpg)
 
 ## Para empezar:
-# Para realizar este proyecto se realizará una investigación previa para saber que genes son esenciales en la resistencia de antibióticos en varias bacterias, en segundo lugar se creará un programa capaz de descargar los genes de una base de datos en la red, después, 
+# En este proyecto llevamos a cabo la reconstrucción filogenética y el análisis comparativo de genes asociados a la resistencia a antibióticos en bacterias patógenas. Utilizando herramientas bioinformáticas, identificamos relaciones evolutivas entre genes resistentes y evaluamos su distribución entre distintos géneros bacterianos. Este enfoque permite entender cómo se diseminan los mecanismos de resistencia, lo que puede aportar al desarrollo de estrategias más efectivas para el control de infecciones bacterianas.
 
 # Requisitos, programas a usar:
 * Atom editor
