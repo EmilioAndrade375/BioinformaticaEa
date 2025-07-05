@@ -15,7 +15,7 @@ mkdir ND1_Falconiformes_genes
 
 # This folders are for the ND1 gene of Accipitriformes and Falconiformes
 
-mkdir ODC_Accipitriformes_gene
+mkdir ODC_Accipitriformes_genes
 mkdir ODC_Falconiformes_genes
 
 # This folders are for the ODC gene of Accipitriformes and Falconiformes
@@ -55,9 +55,9 @@ mv ND1_Falconiformes.zip ND1_Falconiformes_genes/
 
 mv ND1_Accipitriformes.zip ND1_Accipitriformes_genes/
 
-mv ODC_Accipitriformes.zip ODC_Accipitriformes_gene/
+mv ODC_Accipitriformes.zip ODC_Accipitriformes_genes/
 
-mv ODC_Falconiformes.zip ODC_Falconiformes_gene/
+mv ODC_Falconiformes.zip ODC_Falconiformes_genes/
 
 mv SWS1_Accipitriformes.zip SWS1_Accipitriformes_genes/
 
