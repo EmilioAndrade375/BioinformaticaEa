@@ -462,17 +462,7 @@ cd ../../
 
 mkdir Final_phylogenie
 
-cp ND1_Accipitriformes_genes/TREES/*.treefile Final_phylogenie/
-
-cp ND1_Falconiformes_genes/TREES/*.treefile Final_phylogenie/
-
-cp ODC_Accipitriformes_genes/TREES/*.treefile Final_phylogenie/
-
-cp ODC_Falconiformes_genes/TREES/*.treefile Final_phylogenie/
-
-cp SWS1_Accipitriformes_genes/TREES/*.treefile Final_phylogenie/
-
-cp SWS1_Falconiformes_genes/TREES/*.treefile Final_phylogenie/
+cp *_genes/TREES/*.treefile Final_phylogenie/
 
 # We do this to have all the file *.treefile in one folder
 
