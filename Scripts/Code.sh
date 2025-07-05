@@ -387,3 +387,97 @@ iqtree -s *.fna # Since the are few species it is not going to take long
 cd ../../
 
 
+# Forloop to create a folder IQTREE in all the folder
+
+for folder in *_genes; do
+    mkdir -p "${folder}/TREES"
+done
+
+
+# Go to the folder: ND1_Accipitriformes_genes/
+
+cd ND1_Accipitriformes_genes/
+
+cd TREES/
+
+cp ../IQTREE/*.tree.file ./ # We do this to organice and take the final product (*.treefile).
+
+cd ../../
+
+
+# Go to the folder: ND1_Falconiformes_genes/
+
+cd ND1_Falconiformes_genes/
+
+cd TREES/
+
+cp ../IQTREE/*.tree.file ./ # We do this to organice and take the final product (*.treefile).
+
+
+# Go to the folder: ODC_Accipitriformes_genes/
+
+cd ODC_Accipitriformes_genes/
+
+cd TREES/
+
+cp ../IQTREE/*.tree.file ./ # We do this to organice and take the final product (*.treefile).
+
+cd ../../
+
+
+# Go to the folder: ODC_Falconiformes_genes/
+
+cd ODC_Falconiformes_genes/
+
+cd TREES/
+
+cp ../IQTREE/*.tree.file ./ # We do this to organice and take the final product (*.treefile).
+
+cd ../../
+
+
+# Go to the folder: SWS1_Accipitriformes_genes/
+
+cd SWS1_Accipitriformes_genes/
+
+cd TREES/
+
+cp ../IQTREE/*.tree.file ./ # We do this to organice and take the final product (*.treefile).
+
+cd ../../
+
+
+# Go to the folder: SWS1_Falconiformes_genes/
+
+cd SWS1_Falconiformes_genes/
+
+cd TREES/
+
+cp ../IQTREE/*.tree.file ./ # We do this to organice and take the final product (*.treefile).
+
+cd ../../
+
+
+# Final product 
+
+mkdir Final_phylogenie
+
+cp ND1_Accipitriformes_genes/TREES/*.treefile Final_phylogenie/
+
+cp ND1_Falconiformes_genes/TREES/*.treefile Final_phylogenie/
+
+cp ODC_Accipitriformes_genes/TREES/*.treefile Final_phylogenie/
+
+cp ODC_Falconiformes_genes/TREES/*.treefile Final_phylogenie/
+
+cp SWS1_Accipitriformes_genes/TREES/*.treefile Final_phylogenie/
+
+cp SWS1_Falconiformes_genes/TREES/*.treefile Final_phylogenie/
+
+# We do this to have all the file *.treefile in one folder
+
+cd Final_phylogenie
+
+cat *.treefile > All.Accipitriformes.Falconiformes.treefile
+
+# End of the code
