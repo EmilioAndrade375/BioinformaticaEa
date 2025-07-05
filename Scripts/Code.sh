@@ -1,5 +1,9 @@
 # This is the beggining of the code for the proyect
 
+# Made by: Emilio Andrade (emilio.andrade375@gmail.com)
+
+# 05/07/202
+
 mkdir Final_Proyect # This is the folder were we are going to do all the work
 
 cd Final_Proyect # Move to the Folder created Final_Proyect/
