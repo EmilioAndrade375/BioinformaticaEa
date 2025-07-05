@@ -36,5 +36,13 @@ Do mitochondrial (*ND1*) and nuclear (*ODC*) markers, together with a functional
 
 **Caracara plancus**
 
+# Programs needed 
+
+* MUSCLE (MUSCLE is a program for creating multiple alignments of amino acid or nucleotide sequences).
+* Datasets (Takes the NCBI [The National Center for Biotechnology Information] data for the proyect).
+* Iqtree (Program used for doing phylogenies).
+* FigTree (Designed as a graphical viewer of phylogenetic trees and as a program for producing publication-ready figures).
+
+## Note: Every programm you need on the Scripts forlder (Programs).
 
 
