@@ -1,0 +1,307 @@
+IQ-TREE 2.2.2.6 COVID-edition built May 27 2023
+
+Input file name: muscle_ODC_Accipitriformes_editado.fna
+Type of analysis: ModelFinder + tree reconstruction
+Random seed number: 282214
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 52 sequences with 13071 nucleotide sites
+Number of constant sites: 7806 (= 59.72% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 7806 (= 59.72% of all sites)
+Number of parsimony informative sites: 4789
+Number of distinct site patterns: 3294
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: HKY+F+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+HKY+F+G4         -48088.258   96388.517 - 8.75e-05   96390.267 - 9.51e-05   97181.201 +    0.417
+TPM3u+F+G4       -48084.457   96382.915 -  0.00144   96384.698 -  0.00154   97183.077 +    0.163
+HKY+F+I+G4       -48084.508   96383.016 -  0.00137   96384.799 -  0.00146   97183.178 +    0.155
+TN+F+G4          -48085.319   96384.637 - 0.000609   96386.420 - 0.000651   97184.799 +    0.069
+TPM3u+F+I+G4     -48080.872   96377.745 -   0.0191   96379.561 -   0.0201   97185.385 +   0.0515
+TIM3+F+G4        -48081.439   96378.879 -   0.0108   96380.695 -   0.0114   97186.519 -   0.0292
+TPM2u+F+G4       -48086.186   96386.372 - 0.000256   96388.155 - 0.000273   97186.534 -    0.029
+TN+F+I+G4        -48081.835   96379.670 -   0.0073   96381.486 -  0.00767   97187.310 -   0.0197
+K3Pu+F+G4        -48086.633   96387.266 - 0.000164   96389.049 - 0.000175   97187.429 -   0.0185
+TPM2u+F+I+G4     -48082.245   96380.490 -  0.00484   96382.307 -  0.00509   97188.131 -   0.0131
+K3Pu+F+I+G4      -48082.866   96381.733 -   0.0026   96383.549 -  0.00274   97189.373 -  0.00701
+TIM3+F+I+G4      -48078.229   96374.457 +   0.0989   96376.307 +    0.102   97189.576 -  0.00634
+HKY+F+R2         -48087.825   96389.649 - 4.97e-05   96391.432 - 5.31e-05   97189.812 -  0.00563
+TIM2+F+G4        -48083.316   96382.631 -  0.00166   96384.448 -  0.00175   97190.272 -  0.00448
+TIM+F+G4         -48083.696   96383.393 -  0.00113   96385.209 -  0.00119   97191.033 -  0.00306
+TPM3u+F+R2       -48083.928   96383.857 -   0.0009   96385.673 - 0.000946   97191.497 -  0.00243
+TIM2+F+I+G4      -48079.639   96377.277 -   0.0241   96379.127 -    0.025   97192.396 -  0.00155
+TN+F+R2          -48084.849   96385.699 - 0.000358   96387.515 - 0.000377   97193.339 - 0.000965
+TIM+F+I+G4       -48080.195   96378.391 -   0.0138   96380.241 -   0.0143   97193.509 - 0.000887
+TIM3+F+R2        -48080.868   96379.737 -  0.00706   96381.587 -   0.0073   97194.855 - 0.000452
+TPM2u+F+R2       -48085.642   96387.284 - 0.000162   96389.101 -  0.00017   97194.925 - 0.000437
+K3Pu+F+R2        -48086.169   96388.338 - 9.57e-05   96390.155 - 0.000101   97195.979 - 0.000258
+TVM+F+G4         -48081.483   96380.966 -  0.00382   96382.816 -  0.00395   97196.085 - 0.000245
+TVM+F+I+G4       -48077.643   96375.287 +   0.0653   96377.171 +   0.0664   97197.884 - 9.95e-05
+TIM2+F+R2        -48082.737   96383.474 -  0.00109   96385.324 -  0.00113   97198.592 - 6.98e-05
+TIM+F+R2         -48083.122   96384.245 - 0.000741   96386.095 - 0.000766   97199.363 - 4.75e-05
+GTR+F+G4         -48078.533   96377.066 -   0.0268   96378.951 -   0.0273   97199.663 - 4.09e-05
+GTR+F+I+G4       -48075.064   96372.129 +    0.317   96374.048 +    0.316   97202.204 - 1.15e-05
+TVM+F+R2         -48080.761   96381.523 -  0.00289   96383.407 -  0.00294   97204.119 -  4.4e-06
+GTR+F+R2         -48077.859   96377.718 -   0.0194   96379.636 -   0.0193   97207.792 - 7.02e-07
+GTR+F+I+R2       -48074.311   96372.621 +    0.248   96374.575 +    0.243   97210.174 - 2.13e-07
+GTR+F+R3         -48074.275   96374.551 +   0.0944   96376.539 +    0.091   97219.582 - 1.93e-09
+GTR+F+I+R3       -48074.628   96377.256 -   0.0244   96379.279 -   0.0231   97229.765 - 1.19e-11
+GTR+F+I          -48099.660   96419.320 - 1.79e-11   96421.204 - 1.82e-11   97241.916 - 2.73e-14
+GTR+F            -48154.001   96526.003 - 1.22e-34   96527.853 - 1.26e-34   97341.121 - 7.84e-36
+K2P+G4           -48258.693   96723.387 - 1.68e-77   96725.039 - 1.92e-77   97493.636 - 5.97e-69
+K2P+I+G4         -48254.548   96717.097 - 3.91e-76   96718.781 - 4.39e-76   97494.824 -  3.3e-69
+TNe+G4           -48257.967   96723.934 - 1.28e-77   96725.618 - 1.44e-77   97501.661 - 1.08e-70
+K3P+G4           -48258.166   96724.332 - 1.05e-77   96726.016 - 1.18e-77   97502.060 - 8.85e-71
+K2P+R2           -48258.250   96724.500 - 9.64e-78   96726.184 - 1.08e-77   97502.228 - 8.14e-71
+TPM3+G4          -48258.529   96725.058 - 7.29e-78   96726.743 - 8.19e-78   97502.786 - 6.15e-71
+TPM2+G4          -48258.597   96725.194 - 6.82e-78   96726.878 - 7.66e-78   97502.922 - 5.75e-71
+TNe+I+G4         -48253.953   96717.907 - 2.61e-76   96719.624 - 2.88e-76   97503.113 - 5.23e-71
+K3P+I+G4         -48253.992   96717.983 - 2.51e-76   96719.700 - 2.77e-76   97503.189 - 5.03e-71
+TPM3+I+G4        -48254.341   96718.681 - 1.77e-76   96720.398 - 1.96e-76   97503.887 - 3.55e-71
+TPM2+I+G4        -48254.481   96718.962 - 1.54e-76   96720.679 -  1.7e-76   97504.168 - 3.08e-71
+TIMe+G4          -48257.438   96724.875 - 7.99e-78   96726.592 - 8.83e-78   97510.081 -  1.6e-72
+TNe+R2           -48257.504   96725.008 - 7.48e-78   96726.725 - 8.27e-78   97510.214 -  1.5e-72
+K3P+R2           -48257.706   96725.413 - 6.11e-78   96727.130 - 6.75e-78   97510.619 - 1.23e-72
+TIM3e+G4         -48257.813   96725.627 - 5.49e-78   96727.344 - 6.07e-78   97510.833 -  1.1e-72
+TIM2e+G4         -48257.858   96725.715 - 5.25e-78   96727.432 -  5.8e-78   97510.921 - 1.05e-72
+TPM3+R2          -48258.127   96726.253 - 4.01e-78   96727.970 - 4.44e-78   97511.459 - 8.05e-73
+TIMe+I+G4        -48253.397   96718.794 - 1.67e-76   96720.544 - 1.82e-76   97511.478 - 7.97e-73
+TPM2+R2          -48258.168   96726.337 - 3.85e-78   96728.054 - 4.25e-78   97511.543 - 7.72e-73
+TIM3e+I+G4       -48253.758   96719.516 - 1.17e-76   96721.266 - 1.27e-76   97512.200 - 5.56e-73
+TIM2e+I+G4       -48253.881   96719.762 - 1.03e-76   96721.512 - 1.12e-76   97512.446 - 4.92e-73
+TIMe+R2          -48256.961   96725.922 - 4.74e-78   96727.672 - 5.15e-78   97518.606 - 2.26e-74
+TIM2e+R2         -48257.416   96726.832 -    3e-78   96728.582 - 3.27e-78   97519.516 - 1.43e-74
+TIM3e+R2         -48257.470   96726.940 - 2.85e-78   96728.689 -  3.1e-78   97519.624 - 1.36e-74
+TVMe+G4          -48257.847   96727.694 - 1.95e-78   96729.444 - 2.12e-78   97520.379 - 9.31e-75
+TVMe+I+G4        -48253.664   96721.327 - 4.71e-77   96723.110 - 5.04e-77   97521.489 - 5.34e-75
+SYM+G4           -48257.125   96728.249 - 1.48e-78   96730.032 - 1.58e-78   97528.412 - 1.68e-76
+TVMe+R2          -48257.450   96728.900 - 1.07e-78   96730.682 - 1.14e-78   97529.062 - 1.21e-76
+SYM+I+G4         -48253.075   96722.150 - 3.12e-77   96723.966 - 3.28e-77   97529.790 - 8.42e-77
+SYM+R2           -48256.718   96729.437 - 8.17e-79   96731.253 - 8.59e-79   97537.077 -  2.2e-78
+F81+F+G4         -48492.372   97194.743 - 7.45e-180   97196.460 - 8.23e-180   97979.949 - 1.49e-174
+F81+F+I+G4       -48488.311   97188.622 - 1.59e-178   97190.372 - 1.73e-178   97981.306 - 7.58e-175
+F81+F+R2         -48491.688   97195.376 - 5.43e-180   97197.126 - 5.9e-180   97988.061 - 2.59e-176
+JC+G4            -48648.744   97501.489 - 1.83e-246   97503.109 - 2.13e-246   98264.260 - 2.74e-236
+JC+I+G4          -48644.613   97495.226 - 4.2e-245   97496.878 - 4.79e-245   98265.476 - 1.49e-236
+JC+R2            -48648.097   97502.194 - 1.29e-246   97503.846 - 1.47e-246   98272.443 - 4.57e-238
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: HKY+F+G4
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 2.2646
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 2.2646
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2784
+  pi(C) = 0.2165
+  pi(G) = 0.2312
+  pi(T) = 0.274
+
+Rate matrix Q:
+
+  A   -0.9566    0.2042    0.4939    0.2585
+  C    0.2627    -1.066    0.2181    0.5854
+  G    0.5949    0.2042    -1.058    0.2585
+  T    0.2627    0.4625    0.2181   -0.9433
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 3.267
+
+ Category  Relative_rate  Proportion
+  1         0.4089         0.25
+  2         0.7453         0.25
+  3         1.084          0.25
+  4         1.762          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -48037.9545 (s.e. 388.1413)
+Unconstrained log-likelihood (without tree): -77817.6849
+Number of free parameters (#branches + #model parameters): 106
+Akaike information criterion (AIC) score: 96287.9090
+Corrected Akaike information criterion (AICc) score: 96289.6588
+Bayesian information criterion (BIC) score: 97080.5931
+
+Total tree length (sum of branch lengths): 4.2006
+Sum of internal branch lengths: 3.3884 (80.6653% of tree length)
+
+WARNING: 9 near-zero internal branches (<0.0001) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'XM_050894336.1_Gymnogyps_californianus' is drawn at root
+
++--XM_050894336.1_Gymnogyps_californianus
+|
+|        +--XM_049818962.1_Astur_gentilis
+|     +--|
+|     |  |  +--XM_049818960.1_Astur_gentilis
+|     |  +--|
+|     |     |     +--XM_069805806.1_Haliaeetus_albicilla
+|     |     |  +--|
+|     |     |  |  +**XM_009925070.2_Haliaeetus_albicilla
+|     |     +--|
+|     |        +**XM_010566678.1_Haliaeetus_leucocephalus
+|  +--|
+|  |  +--XM_049818961.1_Astur_gentilis
++--|
+|  |     +--XM_069805805.1_Haliaeetus_albicilla
+|  |  +**|
+|  |  |  +**XM_069805807.1_Haliaeetus_albicilla
+|  +--|
+|     +**XM_069805808.1_Haliaeetus_albicilla
+|
+|     +**XM_041128775.1_Aquila_chrysaeto
+|  +--|
+|  |  |  +**XM_030037637.2_Aquila_chrysaeto
+|  |  +--|
+|  |     +**XM_030037638.2_Aquila_chrysaeto
++--|
+   |     +**XM_052809647.1_Harpia_harpyja
+   |  +--|
+   |  |  |  +--XM_052809646.1_Harpia_harpyja
+   |  |  +--|
+   |  |     +--XM_052809648.1_Harpia_harpyja
+   +--|
+      |                                          +--XM_052782656.1_Harpia_harpyja
+      |                                       +--|
+      |                                       |  |         +--XM_050897609.1_Gymnogyps_californianus
+      |                                       |  |      +--|
+      |                                       |  |      |  |  +**XM_030033266.2_Aquila_chrysaeto
+      |                                       |  |      |  +--|
+      |                                       |  |      |     +**XM_030033275.2_Aquila_chrysaeto
+      |                                       |  |   +--|
+      |                                       |  |   |  |     +--XM_049825957.1_Astur_gentilis
+      |                                       |  |   |  |  +--|
+      |                                       |  |   |  |  |  +**XM_049825958.1_Astur_gentilis
+      |                                       |  |   |  +--|
+      |                                       |  |   |     |  +--XM_010583667.1_Haliaeetus_leucocephalus
+      |                                       |  |   |     +--|
+      |                                       |  |   |        |  +**XM_069783951.1_Haliaeetus_albicilla
+      |                                       |  |   |        +**|
+      |                                       |  |   |           +**XM_069783948.1_Haliaeetus_albicilla
+      |                                       |  +---|
+      |                                       |      +**XM_052782657.1_Harpia_harpyja
+      |                                    +--|
+      |                                    |  |  +**XM_052782658.1_Harpia_harpyja
+      |                                    |  +--|
+      |                                    |     +**XM_052782655.1_Harpia_harpyja
+      |                                 +--|
+      |                                 |  |     +**XM_069783952.1_Haliaeetus_albicilla
+      |                                 |  |  +**|
+      |                                 |  |  |  |  +**XM_069783953.1_Haliaeetus_albicilla
+      |                                 |  |  |  +**|
+      |                                 |  |  |     +--XM_069783949.1_Haliaeetus_albicilla
+      |                                 |  +--|
+      |                                 |     |  +**XM_069783947.1_Haliaeetus_albicilla
+      |                                 |     +--|
+      |                                 |        +**XM_069783946.1_Haliaeetus_albicilla
+      |                              +**|
+      |                              |  +**XM_030033249.2_Aquila_chrysaeto
+      |                           +**|
+      |                           |  +**XM_030033258.2_Aquila_chrysaeto
+      |                        +--|
+      |                        |  +**XM_030033238.2_Aquila_chrysaeto
+      +------------------------|
+                               |     +--XM_041127329.1_Aquila_chrysaeto
+                               |  +--|
+                               |  |  |         +--XM_049825959.1_Astur_gentilis
+                               |  |  +---------|
+                               |  |            |                        +--XM_010569936.1_Haliaeetus_leucocephalus
+                               |  |            |                     +--|
+                               |  |            |                     |  +--XM_069780928.1_Haliaeetus_albicilla
+                               |  |            |                  +--|
+                               |  |            |                  |  |     +--XM_050900050.1_Gymnogyps_californianus
+                               |  |            |                  |  |  +--|
+                               |  |            |                  |  |  |  +--XM_052792042.1_Harpia_harpyja
+                               |  |            |                  |  +--|
+                               |  |            |                  |     |     +**XR_005932661.1_Aquila_chrysaeto
+                               |  |            |                  |     |  +**|
+                               |  |            |                  |     |  |  +**XR_005932660.1_Aquila_chrysaeto
+                               |  |            |                  |     +--|
+                               |  |            |                  |        +**XM_041124238.1_Aquila_chrysaeto
+                               |  |            |               +--|
+                               |  |            |               |  +**XM_049810218.1_Astur_gentilis
+                               |  |            +---------------|
+                               |  |                            |           +**XR_007507261.1_Astur_gentilis
+                               |  |                            |        +**|
+                               |  |                            |        |  +**XR_007507257.1_Astur_gentilis
+                               |  |                            |     +**|
+                               |  |                            |     |  +**XR_007507260.1_Astur_gentilis
+                               |  |                            +-----|
+                               |  |                                  +**XR_007507262.1_Astur_gentilis
+                               +--|
+                                  |  +**XM_030033285.2_Aquila_chrysaeto
+                                  +--|
+                                     +**XM_030033294.2_Aquila_chrysaeto
+
+Tree in newick format:
+
+(XM_050894336.1_Gymnogyps_californianus:0.0239829473,(((XM_049818962.1_Astur_gentilis:0.0734970616,(XM_049818960.1_Astur_gentilis:0.0049448474,((XM_069805806.1_Haliaeetus_albicilla:0.0013815459,XM_009925070.2_Haliaeetus_albicilla:0.0000023263):0.0006624661,XM_010566678.1_Haliaeetus_leucocephalus:0.0000020025):0.0080769215):0.0637233697):0.0379911876,XM_049818961.1_Astur_gentilis:0.0001907289):0.0042405694,((XM_069805805.1_Haliaeetus_albicilla:0.0005020155,XM_069805807.1_Haliaeetus_albicilla:0.0000013502):0.0000013502,XM_069805808.1_Haliaeetus_albicilla:0.0000013502):0.0076768284):0.0065414536,((XM_041128775.1_Aquila_chrysaeto:0.0000020604,(XM_030037637.2_Aquila_chrysaeto:0.0000029553,XM_030037638.2_Aquila_chrysaeto:0.0000026714):0.0006118049):0.0043024177,((XM_052809647.1_Harpia_harpyja:0.0000020630,(XM_052809646.1_Harpia_harpyja:0.0013777831,XM_052809648.1_Harpia_harpyja:0.0012147288):0.0307244313):0.0013041450,(((((((XM_052782656.1_Harpia_harpyja:0.1285993477,(((XM_050897609.1_Gymnogyps_californianus:0.0215620263,(XM_030033266.2_Aquila_chrysaeto:0.0000013502,XM_030033275.2_Aquila_chrysaeto:0.0000021888):0.0039328442):0.0029000177,((XM_049825957.1_Astur_gentilis:0.0609083413,XM_049825958.1_Astur_gentilis:0.0000020541):0.0449324124,(XM_010583667.1_Haliaeetus_leucocephalus:0.0012728096,(XM_069783951.1_Haliaeetus_albicilla:0.0000013502,XM_069783948.1_Haliaeetus_albicilla:0.0000013502):0.0000023183):0.0058772556):0.0030057358):0.0059124792,XM_052782657.1_Harpia_harpyja:0.0000021127):0.2297601470):0.0675254821,(XM_052782658.1_Harpia_harpyja:0.0000013502,XM_052782655.1_Harpia_harpyja:0.0000013502):0.0032954415):0.0027981018,((XM_069783952.1_Haliaeetus_albicilla:0.0000013502,(XM_069783953.1_Haliaeetus_albicilla:0.0000013502,XM_069783949.1_Haliaeetus_albicilla:0.0129909584):0.0000021256):0.0000027496,(XM_069783947.1_Haliaeetus_albicilla:0.0000013502,XM_069783946.1_Haliaeetus_albicilla:0.0000013502):0.0003294700):0.0122242195):0.0090106394,XM_030033249.2_Aquila_chrysaeto:0.0000013502):0.0000013502,XM_030033258.2_Aquila_chrysaeto:0.0000013502):0.0000022563,XM_030033238.2_Aquila_chrysaeto:0.0000013502):0.0544000807,((XM_041127329.1_Aquila_chrysaeto:0.0186368240,(XM_049825959.1_Astur_gentilis:0.0071972076,((((XM_010569936.1_Haliaeetus_leucocephalus:0.0212668480,XM_069780928.1_Haliaeetus_albicilla:0.0008841462):0.0114397281,((XM_050900050.1_Gymnogyps_californianus:0.0525464869,XM_052792042.1_Harpia_harpyja:0.0153400907):0.0100605976,((XR_005932661.1_Aquila_chrysaeto:0.0000013502,XR_005932660.1_Aquila_chrysaeto:0.0000013502):0.0000023405,XM_041124238.1_Aquila_chrysaeto:0.0000013502):0.0140819896):0.0080511472):0.0176482797,XM_049810218.1_Astur_gentilis:0.0000022900):0.0399640540,(((XR_007507261.1_Astur_gentilis:0.0000013502,XR_007507257.1_Astur_gentilis:0.0000013502):0.0000013502,XR_007507260.1_Astur_gentilis:0.0000013502):0.0000013502,XR_007507262.1_Astur_gentilis:0.0000013502):0.3031826350):0.8295783386):0.5310394917):0.0139131359,(XM_030033285.2_Aquila_chrysaeto:0.0000023949,XM_030033294.2_Aquila_chrysaeto:0.0000013502):0.0383712385):0.0455883540):1.2697348581):0.0023834804):0.0053917048);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t muscle_ODC_Accipitriformes_editado.fna.treefile -m "HKY{2.26459}+F{0.278414,0.216462,0.231154,0.27397}+G4{3.2672}" --length 13071
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s muscle_ODC_Accipitriformes_editado.fna --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s muscle_ODC_Accipitriformes_editado.fna --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Fri Jul  4 20:39:01 2025
+Total CPU time used: 179.697 seconds (0h:2m:59s)
+Total wall-clock time used: 180.064 seconds (0h:3m:0s)
+

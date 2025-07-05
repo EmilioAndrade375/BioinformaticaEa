@@ -1,0 +1,138 @@
+IQ-TREE multicore version 2.2.2.6 COVID-edition for Linux 64-bit built May 27 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    n1902 (AVX512, FMA3, 188 GB RAM)
+Command: iqtree -s muscle_ND1_Accipitriformes_editado.fna
+Seed:    609018 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Jul  4 20:29:51 2025
+Kernel:  AVX+FMA - 1 threads (36 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 36 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file muscle_ND1_Accipitriformes_editado.fna ... Fasta format detected
+Reading fasta file: done in 0.00207806 secs using 38.83% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00409293 secs using 49.38% CPU
+Alignment has 16 sequences with 4177 columns, 391 distinct patterns
+263 parsimony-informative, 171 singleton sites, 3743 constant sites
+                                         Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 1.5974e-05 secs
+   1  XM_050900672.1_Gymnogyps_californianus    20.83%    passed     78.25%
+   2  XM_030032749.2_Aquila_chrysaeto            8.83%    passed     76.00%
+   3  XM_041127993.1_Aquila_chrysaeto           14.60%    passed     95.44%
+   4  XM_030032750.2_Aquila_chrysaeto           14.51%    passed     94.50%
+   5  XM_052802309.1_Harpia_harpyja              6.49%    passed     63.61%
+   6  XM_052802311.1_Harpia_harpyja             14.10%    passed     90.39%
+   7  XM_052802310.1_Harpia_harpyja             14.20%    passed     89.05%
+   8  XM_052802308.1_Harpia_harpyja             14.10%    passed     87.23%
+   9  XR_011325834.1_Haliaeetus_albicilla       15.32%    passed     98.17%
+  10  XR_011325835.1_Haliaeetus_albicilla       15.35%    passed     98.87%
+  11  XM_069789576.1_Haliaeetus_albicilla       14.58%    passed     95.20%
+  12  XM_069789579.1_Haliaeetus_albicilla       14.68%    passed     94.68%
+  13  XM_069789577.1_Haliaeetus_albicilla        8.71%    passed     77.62%
+  14  XM_010580697.1_Haliaeetus_leucocephalus   43.84%    passed     11.15%
+  15  XM_049809130.1_Astur_gentilis             15.01%    passed     91.33%
+  16  XM_049809131.1_Astur_gentilis              3.85%    passed     82.38%
+****  TOTAL                                     14.94%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Checking for duplicate sequences: done in 4.50611e-05 secs
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.000 seconds
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Optimizing NNI: done in 0.00724196 secs using 99.42% CPU
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -9051.539
+Optimal log-likelihood: -9051.421
+Rate parameters:  A-C: 1.79098  A-G: 2.24301  A-T: 0.38105  C-G: 1.60462  C-T: 4.39913  G-T: 1.00000
+Base frequencies:  A: 0.278  C: 0.196  G: 0.235  T: 0.291
+Proportion of invariable sites: 0.453
+Gamma shape alpha: 0.187
+Parameters optimization took 1 rounds (0.004 sec)
+Time for fast ML tree search: 0.053 seconds
+
+NOTE: ModelFinder requires 2 MB RAM!
+ModelFinder will test up to 484 DNA models (sample size: 4177) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         9256.919     37  18587.838    18588.517    18822.320
+  2  GTR+F+I       9058.711     38  18193.422    18194.138    18434.241
+  3  GTR+F+G4      9077.960     38  18231.920    18232.636    18472.739
+  4  GTR+F+I+G4    9047.582     39  18173.164    18173.919    18420.321
+  5  GTR+F+R2      9027.008     39  18132.016    18132.770    18379.172
+  6  GTR+F+R3      9026.950     41  18135.900    18136.733    18395.732
+ 14  GTR+F+I+R2    9022.857     40  18125.714    18126.507    18379.208
+ 15  GTR+F+I+R3    9019.918     42  18123.837    18124.711    18390.005
+ 27  SYM+R2        9068.275     36  18208.550    18209.193    18436.694
+ 36  SYM+I+R2      9066.273     37  18206.547    18207.226    18441.029
+ 49  TVM+F+R2      9035.201     38  18146.402    18147.118    18387.221
+ 58  TVM+F+I+R2    9032.923     39  18143.847    18144.601    18391.003
+ 71  TVMe+R2       9073.711     35  18217.422    18218.031    18439.229
+ 80  TVMe+I+R2     9072.626     36  18217.253    18217.896    18445.397
+ 93  TIM3+F+R2     9033.049     37  18140.097    18140.777    18374.579
+102  TIM3+F+I+R2   9028.927     38  18133.855    18134.571    18374.674
+115  TIM3e+R2      9072.801     34  18213.603    18214.177    18429.072
+124  TIM3e+I+R2    9070.780     35  18211.561    18212.169    18433.368
+137  TIM2+F+R2     9047.559     37  18169.118    18169.797    18403.600
+146  TIM2+F+I+R2   9043.088     38  18162.176    18162.892    18402.995
+159  TIM2e+R2      9080.010     34  18228.020    18228.595    18443.490
+168  TIM2e+I+R2    9077.385     35  18224.771    18225.379    18446.578
+181  TIM+F+R2      9044.029     37  18162.057    18162.737    18396.539
+190  TIM+F+I+R2    9040.495     38  18156.990    18157.707    18397.810
+203  TIMe+R2       9076.301     34  18220.601    18221.176    18436.071
+212  TIMe+I+R2     9074.174     35  18218.347    18218.956    18440.155
+225  TPM3u+F+R2    9041.189     36  18154.378    18155.021    18382.522
+234  TPM3u+F+I+R2  9039.069     37  18152.139    18152.818    18386.621
+247  TPM3+R2       9078.145     33  18222.291    18222.832    18431.423
+256  TPM3+I+R2     9077.126     34  18222.253    18222.828    18437.723
+269  TPM2u+F+R2    9055.614     36  18183.228    18183.872    18411.373
+278  TPM2u+F+I+R2  9053.123     37  18180.247    18180.926    18414.729
+291  TPM2+R2       9085.564     33  18237.128    18237.670    18446.261
+300  TPM2+I+R2     9084.108     34  18236.216    18236.790    18451.685
+313  K3Pu+F+R2     9052.018     36  18176.036    18176.680    18404.181
+322  K3Pu+F+I+R2   9050.105     37  18174.211    18174.890    18408.693
+335  K3P+R2        9081.799     33  18229.599    18230.140    18438.731
+344  K3P+I+R2      9080.738     34  18229.476    18230.050    18444.945
+357  TN+F+R2       9049.400     36  18170.800    18171.443    18398.944
+366  TN+F+I+R2     9045.589     37  18165.178    18165.857    18399.660
+379  TNe+R2        9080.561     33  18227.123    18227.665    18436.255
+388  TNe+I+R2      9078.198     34  18224.396    18224.971    18439.866
+401  HKY+F+R2      9057.356     35  18184.711    18185.320    18406.519
+410  HKY+F+I+R2    9055.345     36  18182.691    18183.334    18410.835
+423  K2P+R2        9086.039     32  18236.079    18236.588    18438.874
+432  K2P+I+R2      9084.806     33  18235.612    18236.153    18444.744
+445  F81+F+R2      9132.759     34  18333.517    18334.092    18548.987
+454  F81+F+I+R2    9131.546     35  18333.091    18333.700    18554.899
+467  JC+R2         9158.556     31  18379.112    18379.591    18575.570
+476  JC+I+R2       9157.848     32  18379.695    18380.205    18582.490
+Akaike Information Criterion:           GTR+F+I+R3
+Corrected Akaike Information Criterion: GTR+F+I+R3
+Bayesian Information Criterion:         TIM3+F+R2
+Best-fit model: TIM3+F+R2 chosen according to BIC
+
+All model information printed to muscle_ND1_Accipitriformes_editado.fna.model.gz
+CPU time for ModelFinder: 3.449 seconds (0h:0m:3s)
+Wall-clock time for ModelFinder: 3.483 seconds (0h:0m:3s)
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -9033.049
+Optimal log-likelihood: -9033.030
+Rate parameters:  A-C: 2.63235  A-G: 3.84240  A-T: 1.00000  C-G: 2.63235  C-T: 6.91285  G-T: 1.00000
+Base frequencies:  A: 0.278  C: 0.196  G: 0.235  T: 0.291
+Site proportion and rates:  (0.953,0.285) (0.047,15.497)
+Parameters optimization took 1 rounds (0.004 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.00090003 secs using 99.66% CPU
+Computing ML distances took 0.000962 sec (of wall-clock time) 0.000953 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 4.79221e-05 secs using 98.08% CPU
+Constructing RapidNJ tree: done in 6.98566e-05 secs using 48.67% CPU
+Computing RapidNJ tree took 0.000163 sec (of wall-clock time) 0.000115 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -9034.463
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 

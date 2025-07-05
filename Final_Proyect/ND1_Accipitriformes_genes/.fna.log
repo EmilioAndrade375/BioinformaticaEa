@@ -1,0 +1,14 @@
+IQ-TREE multicore version 2.2.2.6 COVID-edition for Linux 64-bit built May 27 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    n1902 (AVX512, FMA3, 188 GB RAM)
+Command: iqtree2 -s .fna
+Seed:    691696 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Jul  4 19:17:55 2025
+Kernel:  AVX+FMA - 1 threads (36 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 36 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file .fna ... ERROR: File not found .fna

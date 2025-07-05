@@ -1,0 +1,266 @@
+IQ-TREE 2.2.2.6 COVID-edition built May 27 2023
+
+Input file name: muscle_ODC_Falconiformes_editado.fna
+Type of analysis: ModelFinder + tree reconstruction
+Random seed number: 90507
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 42 sequences with 3700 nucleotide sites
+Number of constant sites: 2415 (= 65.2703% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 2415 (= 65.2703% of all sites)
+Number of parsimony informative sites: 1208
+Number of distinct site patterns: 641
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: HKY+F+I+R2
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+HKY+F+I+R2       -10412.361   21000.722 +    0.108   21005.060 +    0.117   21547.738 +    0.851
+K3Pu+F+I+R2      -10410.959   20999.918 +    0.162   21004.356 +    0.167   21553.150 +   0.0569
+TPM3u+F+I+R2     -10411.463   21000.926 +    0.098   21005.363 +    0.101   21554.158 -   0.0344
+HKY+F+R3         -10411.881   21001.761 +   0.0645   21006.199 +   0.0665   21554.993 -   0.0226
+TN+F+I+R2        -10412.174   21002.348 -   0.0481   21006.785 -   0.0496   21555.580 -   0.0169
+TPM2u+F+I+R2     -10412.430   21002.859 -   0.0373   21007.297 -   0.0384   21556.091 -   0.0131
+K3Pu+F+R3        -10410.465   21000.931 +   0.0978   21005.469 +   0.0957   21560.379 -  0.00153
+TPM3u+F+R3       -10410.936   21001.873 +    0.061   21006.412 +   0.0598   21561.321 - 0.000956
+TIM+F+I+R2       -10410.963   21001.926 +   0.0594   21006.465 +   0.0582   21561.374 - 0.000931
+TIM3+F+I+R2      -10411.525   21003.051 -   0.0339   21007.590 -   0.0332   21562.499 - 0.000531
+TN+F+R3          -10411.745   21003.490 -   0.0272   21008.029 -   0.0266   21562.938 - 0.000426
+TPM2u+F+R3       -10411.936   21003.872 -   0.0225   21008.410 -    0.022   21563.320 - 0.000352
+TIM2+F+I+R2      -10412.402   21004.804 -   0.0141   21009.343 -   0.0138   21564.252 - 0.000221
+TVM+F+I+R2       -10410.418   21002.837 -   0.0377   21007.478 -   0.0351   21568.501 - 2.64e-05
+TIM+F+R3         -10410.419   21002.838 -   0.0377   21007.479 -   0.0351   21568.502 - 2.64e-05
+TIM3+F+R3        -10410.803   21003.606 -   0.0257   21008.247 -   0.0239   21569.270 -  1.8e-05
+TIM2+F+R3        -10411.861   21005.722 -  0.00891   21010.363 -  0.00829   21571.386 - 6.24e-06
+TVM+F+R3         -10409.700   21003.400 -   0.0284   21008.145 -   0.0251   21575.281 -  8.9e-07
+GTR+F+I+R2       -10410.455   21004.911 -   0.0134   21009.655 -   0.0118   21576.791 - 4.18e-07
+K2P+I+R2         -10440.980   21051.961 - 8.11e-13   21056.006 - 1.02e-12   21580.328 - 7.13e-08
+GTR+F+R3         -10409.700   21005.401 -   0.0105   21010.249 -  0.00877   21583.497 - 1.46e-08
+TNe+I+R2         -10439.665   21051.331 - 1.11e-12   21055.472 - 1.33e-12   21585.914 - 4.37e-09
+K3P+I+R2         -10439.830   21051.660 - 9.43e-13   21055.802 - 1.13e-12   21586.244 -  3.7e-09
+K2P+R3           -10440.619   21053.238 - 4.28e-13   21057.380 - 5.12e-13   21587.822 - 1.68e-09
+TPM2+I+R2        -10440.810   21053.620 - 3.54e-13   21057.761 - 4.23e-13   21588.203 - 1.39e-09
+TPM3+I+R2        -10441.019   21054.037 - 2.87e-13   21058.179 - 3.43e-13   21588.621 - 1.13e-09
+TIMe+I+R2        -10438.594   21051.189 - 1.19e-12   21055.428 - 1.36e-12   21591.989 - 2.09e-10
+GTR+F+I+R3       -10410.467   21008.935 -  0.00179   21013.889 -  0.00142   21593.247 - 1.12e-10
+TNe+R3           -10439.289   21052.578 - 5.96e-13   21056.817 - 6.78e-13   21593.378 - 1.05e-10
+K3P+R3           -10439.448   21052.896 - 5.08e-13   21057.135 - 5.78e-13   21593.695 - 8.92e-11
+TIM2e+I+R2       -10439.645   21053.290 - 4.17e-13   21057.529 - 4.75e-13   21594.090 - 7.33e-11
+TIM3e+I+R2       -10439.847   21053.694 - 3.41e-13   21057.934 - 3.88e-13   21594.494 - 5.99e-11
+TPM2+R3          -10440.384   21054.769 - 1.99e-13   21059.008 - 2.27e-13   21595.569 -  3.5e-11
+TPM3+R3          -10440.597   21055.195 - 1.61e-13   21059.434 - 1.83e-13   21595.995 - 2.83e-11
+TIMe+R3          -10438.203   21052.406 - 6.49e-13   21056.744 - 7.03e-13   21599.422 - 5.09e-12
+GTR+F+R4         -10409.608   21009.217 -  0.00155   21014.278 -  0.00117   21599.745 - 4.33e-12
+TIM2e+R3         -10439.169   21054.338 - 2.47e-13   21058.675 - 2.68e-13   21601.353 - 1.94e-12
+TIM3e+R3         -10439.374   21054.748 - 2.01e-13   21059.086 - 2.18e-13   21601.763 - 1.58e-12
+TVMe+I+R2        -10439.725   21055.449 - 1.42e-13   21059.787 - 1.54e-13   21602.465 - 1.11e-12
+SYM+I+R2         -10438.547   21055.094 - 1.69e-13   21059.532 - 1.74e-13   21608.326 - 5.94e-14
+TVMe+R3          -10439.167   21056.334 - 9.11e-14   21060.772 - 9.38e-14   21609.566 - 3.19e-14
+GTR+F+G4         -10437.912   21055.824 - 1.18e-13   21060.362 - 1.15e-13   21615.272 - 1.84e-15
+SYM+R3           -10437.933   21055.866 - 1.15e-13   21060.405 - 1.13e-13   21615.314 -  1.8e-15
+GTR+F            -10444.996   21067.992 - 2.68e-16   21072.430 - 2.76e-16   21621.224 - 9.39e-17
+GTR+F+R2         -10438.090   21058.181 - 3.62e-14   21062.822 - 3.37e-14   21623.845 - 2.53e-17
+GTR+F+I          -10444.404   21068.807 - 1.78e-16   21073.346 - 1.75e-16   21628.255 - 2.79e-18
+GTR+F+I+G4       -10441.442   21064.884 - 1.27e-15   21069.525 - 1.18e-15   21630.548 - 8.87e-19
+F81+F+I+R2       -10507.346   21188.693 - 1.65e-42   21192.932 - 1.88e-42   21729.492 -  2.9e-40
+F81+F+R3         -10506.739   21189.478 - 1.12e-42   21193.816 - 1.21e-42   21736.494 - 8.75e-42
+JC+I+R2          -10534.835   21237.669 - 3.83e-53   21241.619 - 5.03e-53   21759.821 - 7.53e-47
+JC+R3            -10534.337   21238.674 - 2.32e-53   21242.720 -  2.9e-53   21767.042 - 2.04e-48
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: HKY+F+I+R2
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 2.6012
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 2.6012
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2742
+  pi(C) = 0.2044
+  pi(G) = 0.2456
+  pi(T) = 0.2758
+
+Rate matrix Q:
+
+  A   -0.9792    0.1788     0.559    0.2414
+  C    0.2399    -1.083    0.2149    0.6278
+  G    0.6241    0.1788    -1.044    0.2414
+  T    0.2399    0.4652    0.2149     -0.92
+
+Model of rate heterogeneity: Invar+FreeRate with 2 categories
+Proportion of invariable sites: 0.007687
+Site proportion and rates:  (0.9242,0.52) (0.06813,7.625)
+
+ Category  Relative_rate  Proportion
+  0         0              0.007687
+  1         0.52           0.9242
+  2         7.625          0.06813
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -10348.2418 (s.e. 124.9854)
+Unconstrained log-likelihood (without tree): -19178.5265
+Number of free parameters (#branches + #model parameters): 88
+Akaike information criterion (AIC) score: 20872.4836
+Corrected Akaike information criterion (AICc) score: 20876.8215
+Bayesian information criterion (BIC) score: 21419.4994
+
+Total tree length (sum of branch lengths): 2.6235
+Sum of internal branch lengths: 2.5889 (98.6806% of tree length)
+
+WARNING: 19 near-zero internal branches (<0.0003) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'XM_040604592.1_Falco_naumanni' is drawn at root
+
++--XM_040604592.1_Falco_naumanni
+|
+|     +--XM_055719193.1_Falco_cherrug
+|  +--|
+|  |  |     +--XM_040604591.1_Falco_naumanni
+|  |  |  +--|
+|  |  |  |  |  +--XM_055811377.1_Falco_peregrinus
+|  |  |  |  +--|
+|  |  |  |     |     +**XM_037398324.1_Falco_rusticolus
+|  |  |  |     |  +**|
+|  |  |  |     |  |  +**XM_056350121.1_Falco_biarmicus
+|  |  |  |     +--|
+|  |  |  |        +--XM_055719192.1_Falco_cherrug
+|  |  +--|
+|  |     |                                                                                          +**XM_055810727.1_Falco_peregrinus
+|  |     |                                                                                       +**|
+|  |     |                                                                                       |  +**XM_055810726.1_Falco_peregrinus
+|  |     |                                                                                    +**|
+|  |     |                                                                                    |  +**XM_055810728.1_Falco_peregrinus
+|  |     |                                                                                 +--|
+|  |     |                                                                                 |  +**XM_055810729.1_Falco_peregrinus
+|  |     |                                                                              +--|
+|  |     |                                                                              |  |  +**XM_055714328.1_Falco_cherrug
+|  |     |                                                                              |  +**|
+|  |     |                                                                              |     +**XM_055714327.1_Falco_cherrug
+|  |     |                                                                           +**|
+|  |     |                                                                           |  +**XM_055714332.1_Falco_cherrug
+|  |     |                                                                        +**|
+|  |     |                                                                        |  +**XM_056343972.1_Falco_biarmicus
+|  |     |                                                                     +**|
+|  |     |                                                                     |  +**XM_055714330.1_Falco_cherrug
+|  |     |                                                                  +**|
+|  |     |                                                                  |  |     +**XM_056343971.1_Falco_biarmicus
+|  |     |                                                                  |  |  +**|
+|  |     |                                                                  |  |  |  +**XM_056343968.1_Falco_biarmicus
+|  |     |                                                                  |  +--|
+|  |     |                                                                  |     +**XM_056343970.1_Falco_biarmicus
+|  |     |                                                               +**|
+|  |     |                                                               |  |  +**XM_037392034.1_Falco_rusticolus
+|  |     |                                                               |  +--|
+|  |     |                                                               |     +**XM_037392035.1_Falco_rusticolus
+|  |     |                                                            +**|
+|  |     |                                                            |  +**XM_055714326.1_Falco_cherrug
+|  |     |                                                         +--|
+|  |     |                                                         |  +**XM_055714331.1_Falco_cherrug
+|  |     |                                                      +--|
+|  |     |                                                      |  +**XM_040598440.1_Falco_naumanni
+|  |     |                                                   +**|
+|  |     |                                                   |  +**XM_040598442.1_Falco_naumanni
+|  |     |                                 +-----------------|
+|  |     |                                 |                 |        +--XM_027787821.2_Falco_peregrinus
+|  |     |                                 |                 |     +--|
+|  |     |                                 |                 |     |  +**XM_056343969.1_Falco_biarmicus
+|  |     |                                 |                 |  +--|
+|  |     |                                 |                 |  |  |  +--XM_037392036.1_Falco_rusticolus
+|  |     |                                 |                 |  |  +**|
+|  |     |                                 |                 |  |     +**XM_005432240.4_Falco_cherrug
+|  |     |                                 |                 +--|
+|  |     |                                 |                    +--XM_040598441.1_Falco_naumanni
+|  |     +---------------------------------|
+|  |                                       |                  +**XM_055820210.1_Falco_peregrinus
+|  |                                       |               +**|
+|  |                                       |               |  +**XM_027795979.2_Falco_peregrinus
+|  |                                       +---------------|
+|  |                                                       |        +**XM_055716721.1_Falco_cherrug
+|  |                                                       |     +**|
+|  |                                                       |     |  |  +**XM_037393514.1_Falco_rusticolus
+|  |                                                       |     |  +**|
+|  |                                                       |     |     |  +**XM_037393515.1_Falco_rusticolus
+|  |                                                       |     |     +**|
+|  |                                                       |     |        |  +**XM_027812582.2_Falco_cherrug
+|  |                                                       |     |        +**|
+|  |                                                       |     |           +**XM_056346956.1_Falco_biarmicus
+|  |                                                       |  +--|
+|  |                                                       |  |  +**XM_056346955.1_Falco_biarmicus
+|  |                                                       +--|
+|  |                                                          |  +**XM_040599989.1_Falco_naumanni
+|  |                                                          +--|
+|  |                                                             +**XM_040599990.1_Falco_naumanni
++**|
+|  +**XM_056350122.1_Falco_biarmicus
+|
++**XM_037398325.1_Falco_rusticolus
+
+Tree in newick format:
+
+(XM_040604592.1_Falco_naumanni:0.0075710430,((XM_055719193.1_Falco_cherrug:0.0006445874,((XM_040604591.1_Falco_naumanni:0.0084942208,(XM_055811377.1_Falco_peregrinus:0.0018413406,((XM_037398324.1_Falco_rusticolus:0.0000008413,XM_056350121.1_Falco_biarmicus:0.0000008413):0.0000008413,XM_055719192.1_Falco_cherrug:0.0014239058):0.0017868771):0.0003584161):0.0664743814,(((((((((((((((XM_055810727.1_Falco_peregrinus:0.0000008413,XM_055810726.1_Falco_peregrinus:0.0000008413):0.0000008413,XM_055810728.1_Falco_peregrinus:0.0000008413):0.0000008413,XM_055810729.1_Falco_peregrinus:0.0000008413):0.0019151209,(XM_055714328.1_Falco_cherrug:0.0000008413,XM_055714327.1_Falco_cherrug:0.0000008413):0.0000008413):0.0004750438,XM_055714332.1_Falco_cherrug:0.0000008413):0.0000008413,XM_056343972.1_Falco_biarmicus:0.0000008413):0.0000008413,XM_055714330.1_Falco_cherrug:0.0000008413):0.0000008413,((XM_056343971.1_Falco_biarmicus:0.0000008413,XM_056343968.1_Falco_biarmicus:0.0000008413):0.0000008413,XM_056343970.1_Falco_biarmicus:0.0000008413):0.0009209120):0.0000008413,(XM_037392034.1_Falco_rusticolus:0.0000008413,XM_037392035.1_Falco_rusticolus:0.0000008413):0.0004793756):0.0000008413,XM_055714326.1_Falco_cherrug:0.0000008413):0.0000008413,XM_055714331.1_Falco_cherrug:0.0000008413):0.0132671754,XM_040598440.1_Falco_naumanni:0.0000017264):0.0085473513,XM_040598442.1_Falco_naumanni:0.0000008413):0.0000024623,(((XM_027787821.2_Falco_peregrinus:0.0016143069,XM_056343969.1_Falco_biarmicus:0.0000008413):0.0005370364,(XM_037392036.1_Falco_rusticolus:0.0006346024,XM_005432240.4_Falco_cherrug:0.0000008413):0.0000008413):0.0112555742,XM_040598441.1_Falco_naumanni:0.0011403512):0.1091436506):0.6145051068,((XM_055820210.1_Falco_peregrinus:0.0000008413,XM_027795979.2_Falco_peregrinus:0.0000008413):0.0000008413,(((XM_055716721.1_Falco_cherrug:0.0000008413,(XM_037393514.1_Falco_rusticolus:0.0000008413,(XM_037393515.1_Falco_rusticolus:0.0000008413,(XM_027812582.2_Falco_cherrug:0.0000008413,XM_056346956.1_Falco_biarmicus:0.0000008413):0.0000008413):0.0000008413):0.0000008413):0.0000008413,XM_056346955.1_Falco_biarmicus:0.0000008413):0.0017395452,(XM_040599989.1_Falco_naumanni:0.0000008413,XM_040599990.1_Falco_naumanni:0.0000008413):0.0061565364):0.0008650077):0.5509791141):1.1292277856):0.0803862309):0.0010561976,XM_056350122.1_Falco_biarmicus:0.0000008413):0.0000018002,XM_037398325.1_Falco_rusticolus:0.0000008413);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t muscle_ODC_Falconiformes_editado.fna.treefile -m "HKY{2.60118}+F{0.274183,0.204393,0.245586,0.275837}+I{0.00768683}+R2{0.924188,0.519988,0.0681255,7.62465}" --length 3700
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s muscle_ODC_Falconiformes_editado.fna --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s muscle_ODC_Falconiformes_editado.fna --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Fri Jul  4 20:40:40 2025
+Total CPU time used: 7.81959 seconds (0h:0m:7s)
+Total wall-clock time used: 7.68916 seconds (0h:0m:7s)
+
