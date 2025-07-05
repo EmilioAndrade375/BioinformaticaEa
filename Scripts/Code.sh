@@ -44,9 +44,9 @@ cp ../Programs/datasets ./
 
 ./datasets download gene symbol ODC --ortholog Falconiformes --filename ODC_Falconiformes.zip # This is the code for the ODC gene from the Falconiformes taxon
 
-./datasets download gene symbol SWS1 --ortholog Accipitriformes --filename ODC_Accipitriformes.zip # This is the code for the SWS1 gene from the Accipitriformes taxon
+./datasets download gene symbol SWS1 --ortholog Accipitriformes --filename SWS1_Accipitriformes.zip # This is the code for the SWS1 gene from the Accipitriformes taxon
 
-./datasets download gene symbol SWS1 --ortholog Falconiformes --filename ODC_Falconiformes.zip # This is the code for the SWS1 gene from the Falconiformes taxon
+./datasets download gene symbol SWS1 --ortholog Falconiformes --filename SWS1_Falconiformes.zip # This is the code for the SWS1 gene from the Falconiformes taxon
 
 
 # Move all the *.zip files to the corresponding file
