@@ -43,6 +43,6 @@ Do mitochondrial (*ND1*) and nuclear (*ODC*) markers, together with a functional
 * Iqtree (Program used for doing phylogenies).
 * FigTree (Designed as a graphical viewer of phylogenetic trees and as a program for producing publication-ready figures).
 
-## Note: Every programm you need on the Scripts forlder (Programs).
+## Note: Every programm you need is on the Scripts forlder (Programs).
 
 
