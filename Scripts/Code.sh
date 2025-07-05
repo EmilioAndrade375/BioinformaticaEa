@@ -24,7 +24,7 @@ mkdir SWS1_Falconiformes_genes
 
 # Copy the program Muscle from the Programs Folder
 
-cp ../Programs/muscle3.8.31_i86win32.exe ./
+cp ../Programs/muscle3.8.31_i86linux64 ./ # IF YOU HAVE A DIFERENT OPERATION SYSTEM PLEASE USE THE ONE DEPENDING ON IT 
 
 # Copy the program dataset from the Programs Folder 
 
@@ -51,6 +51,7 @@ genes=("MD1" "ODC" "SM51")
 taxones=("Accipitriformes" "Falconiformes")
 
 # Iterate over each gene/taxon combination
+
 for gene in "${genes[@]}"; do
     for taxon in "${taxones[@]}"; do
         zip_file="${gene}_${taxon}.zip"
@@ -63,4 +64,326 @@ for gene in "${genes[@]}"; do
             # Move the file to the folder
             mv "$zip_file" "$target_dir/"
 
-# Now we have to enter to the first folder: 
+# Now we have to enter to the first folder: ND1_Accipitriformes_genes/ 
+
+cd ND1_Accipitriformes_genes
+
+# Unzip the file*.zip
+
+unzip ND1_Accipitriformes.zip 
+
+# A ncbi folder has been created now we want the rna.fna file 
+
+mv ncbi_dataset/data/rna.fna ./ # Moving the rna.fna to the main folder (ND1_Accipitriformes_genes) makes it easier to work
+
+# Change the name to an easier identification
+
+mv rna.fna ND1_Accipitriformes.fna 
+
+cd ../
+
+
+# Now we have to enter to second folder: ND1_Falconiformes_genes/
+
+cd ND1_Falconiformes_genes
+
+# Unzip the file*.zip
+
+unzip ND1_Falconiformes.zip
+
+# A ncbi folder has been created now we want the rna.fna file
+
+mv ncbi_dataset/data/rna.fna ./
+
+# Change the name to an easier identification
+
+mv rna.fna ND1_Falconiformes.fna
+
+cd ../
+
+
+# Now we have to enter to third folder: ODC_Falconiformes_genes/
+
+cd ODC_Falconiformes_genes/
+
+# Unzip the file*.zip
+
+unzip ODC_Falconiformes.zip
+
+# A ncbi folder has been created now we want the rna.fna file
+
+mv ncbi_dataset/data/rna.fna ./
+
+# Change the name to an easier identification
+
+mv rna.fna ODC_Falconiformes.fna
+
+cd ../
+
+
+# Now we have to enter to forth folder: ODC_Accipitriformes_genes/
+
+cd ODC_Accipitriformes_genes/
+
+# Unzip the file*.zip
+
+unzip ODC_Accipitriformes.zip
+
+# A ncbi folder has been created now we want the rna.fna file
+
+mv ncbi_dataset/data/rna.fna ./
+
+# Change the name to an easier identification
+
+mv rna.fna ODC_Accipitriforme.fna 
+
+cd ../
+
+
+# Now we have to enter to third fifth: SWS1_Falconiformes_genes/
+
+cd SWS1_Falconiformes_genes/
+
+# Unzip the file*.zip
+
+unzip SWS1_Falconiformes.zip
+
+# A ncbi folder has been created now we want the rna.fna file
+
+mv ncbi_dataset/data/rna.fna ./
+
+# Change the name to an easier identification
+
+mv rna.fna SWS1_Falconiformes.fna
+
+cd ../
+
+
+# Now we have to enter to sixth folder: SWS1_Accipitriformes_genes/
+
+cd SWS1_Accipitriformes_genes/
+
+# Unzip the file*.zip
+
+unzip SWS1_Accipitriformes.zip
+
+# A ncbi folder has been created now we want the rna.fna file
+
+mv ncbi_dataset/data/rna.fna ./
+
+# Change the name to an easier identification
+
+mv rna.fna SWS1_Accipitriforme.fna
+
+cd ../
+
+
+# MUSCLE code
+
+# Go to the this folder: ND1_Accipitriformes_genes/
+
+cd ND1_Accipitriformes_genes
+
+mkdir MUSCLE # This is were we are going to work with the muscle alignment
+
+cp ../muscle3.8.31_i86linux64 ./ 
+
+mv muscle3.8.31_i86win32.exe ./ MUSCLE/
+
+mv ND1_Accipitriformes.fna MUSCLE/ 
+
+./muscle3.8.31_i86linux64 -in rna.fna -out muscle_*.fna -maxiters 1 -diags # This is the code we are going to use to do the muscle alignment, since the are a few species it is not going to take long
+
+cd ../../
+
+
+# Go to the this folder: ND1_Falconiformes_genes/
+
+cd ND1_Falconiformes_genes
+
+mkdir MUSCLE # This is were we are going to work with the muscle alignment
+
+cp ../muscle3.8.31_i86linux64 ./
+
+mv muscle3.8.31_i86win32.exe ./ MUSCLE/
+
+mv ND1_Falconiformes.fna MUSCLE/
+
+./muscle3.8.31_i86linux64 -in rna.fna -out muscle_*.fna -maxiters 1 -diags
+
+cd ../../
+
+
+# Go to the this folder: ODC_Accipitriformes_genes/
+
+cd ODC_Accipitriformes_genes/
+
+mkdir MUSCLE # This is were we are going to work with the muscle alignment
+
+cp ../muscle3.8.31_i86linux64 ./
+
+mv muscle3.8.31_i86win32.exe ./ MUSCLE/
+                                                                                                                                                                                            mv ND1_Falconiformes.fna MUSCLE/
+mv ODC_Accipitriformes.fna MUSCLE/
+
+./muscle3.8.31_i86linux64 -in rna.fna -out muscle_*.fna -maxiters 1 -diags
+
+cd ../../
+
+
+# Go to the this folder: ODC_Falconiformes_genes/
+
+cd ODC_Falconiformes_genes/
+
+mkdir MUSCLE # This is were we are going to work with the muscle alignment
+
+cp ../muscle3.8.31_i86linux64 ./
+
+mv muscle3.8.31_i86win32.exe ./ MUSCLE/
+                                                                                                                                                                                           >mv ODC_Accipitriformes.fna MUSCLE/
+mv ODC_Falconiformes.fna MUSCLE/
+
+./muscle3.8.31_i86linux64 -in rna.fna -out muscle_*.fna -maxiters 1 -diags
+
+cd ../../
+
+
+# Go to the this folder: SWS1_Accipitriformes_genes/
+
+cd SWS1_Accipitriformes_genes/
+
+mkdir MUSCLE # This is were we are going to work with the muscle alignment
+
+cp ../muscle3.8.31_i86linux64 ./
+
+mv muscle3.8.31_i86win32.exe ./ MUSCLE/
+                                                                                                                                                                                           >mv ODC_Falconiformes.fna MUSCLE/
+mv SWS1_Accipitriformes.rna ./ MUSCLE/
+
+./muscle3.8.31_i86linux64 -in rna.fna -out muscle_*.fna -maxiters 1 -diags 
+
+cd ../../
+
+
+# Go to the this folder: SWS1_Falconiformes_genes/
+
+cd SWS1_Falconiformes_genes/
+
+mkdir MUSCLE # This is were we are going to work with the muscle alignment
+
+cp ../muscle3.8.31_i86linux64 ./
+
+mv muscle3.8.31_i86win32.exe ./ MUSCLE/
+
+mv SWS1_Falconiformes.rna MUSCLE/                                                                                                                                                                                           >mv SWS1_Accipitriformes.rna ./ MUSCLE
+
+./muscle3.8.31_i86linux64 -in rna.fna -out muscle_*.fna -maxiters 1 -diags
+
+cd ../../
+
+
+# Forloop to create a folder IQTREE in all the folder 
+
+for folder in *_genes; do
+    mkdir -p "${folder}/IQTREE"
+done 
+
+
+# IQTREE code
+
+# Go to the folder: ND1_Accipitriformes_genes/
+
+cd ND1_Accipitriformes_genes/ 
+
+cd IQTREE/
+
+cp ../MUSCLE/*.fna ./
+
+source /u/local/Modules/default/init/modules.sh
+module load iqtree/2.2.2.6 # To activate the iqtree code use this code
+
+iqtree -s *.fna # Since the are few species it is not going to take long 
+
+cd ../../
+
+
+# Go to the folder: ND1_Falconiformes_genes/
+
+cd ND1_Falconiformes_genes/
+
+cd IQTREE/
+
+cp ../MUSCLE/*.fna ./
+
+source /u/local/Modules/default/init/modules.sh
+module load iqtree/2.2.2.6 # To activate the iqtree code use this code
+
+iqtree -s *.fna # Since the are few species it is not going to take long
+
+cd ../../
+
+
+# Go to the folder: ODC_Accipitriformes_genes/
+
+cd ODC_Accipitriformes_genes/
+
+cd IQTREE/
+
+cp ../MUSCLE/*.fna ./
+
+source /u/local/Modules/default/init/modules.sh
+module load iqtree/2.2.2.6 # To activate the iqtree code use this code
+
+iqtree -s *.fna # Since the are few species it is not going to take long
+
+cd ../../
+
+
+# Go to the folder: ODC_Falconiformes_genes/
+
+cd ODC_Falconiformes_genes/
+
+cd IQTREE/
+
+cp ../MUSCLE/*.fna ./
+
+source /u/local/Modules/default/init/modules.sh
+module load iqtree/2.2.2.6 # To activate the iqtree code use this code
+
+iqtree -s *.fna # Since the are few species it is not going to take long
+
+cd ../../
+
+
+# Go to the folder: SWS1_Accipitriformes_genes/
+
+cd SWS1_Accipitriformes_genes/
+
+cd IQTREE/
+
+cp ../MUSCLE/*.fna ./
+
+source /u/local/Modules/default/init/modules.sh
+module load iqtree/2.2.2.6 # To activate the iqtree code use this code
+
+iqtree -s *.fna # Since the are few species it is not going to take long
+
+cd ../../
+
+
+# Go to the folder: SWS1_Falconiformes_genes/
+
+cd SWS1_Falconiformes_genes/
+
+cd IQTREE/
+
+cp ../MUSCLE/*.fna ./
+
+source /u/local/Modules/default/init/modules.sh
+module load iqtree/2.2.2.6 # To activate the iqtree code use this code
+
+iqtree -s *.fna # Since the are few species it is not going to take long
+
+cd ../../
+
+
