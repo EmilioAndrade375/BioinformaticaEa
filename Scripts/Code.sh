@@ -48,25 +48,21 @@ cp ../Programs/datasets ./
 
 ./datasets download gene symbol SWS1 --ortholog Falconiformes --filename ODC_Falconiformes.zip # This is the code for the SWS1 gene from the Falconiformes taxon
 
-# Forloop to move the file *.zip Example: ND1_Accipitriformes.zip a to their corresponding folders. Example: ND1_Accipitriformes_genes
 
-# List of genes and taxons 
-genes=("MD1" "ODC" "SM51")
-taxones=("Accipitriformes" "Falconiformes")
+# Move all the *.zip files to the corresponding file
 
-# Iterate over each gene/taxon combination
+mv ND1_Falconiformes.zip ND1_Falconiformes_genes/
 
-for gene in "${genes[@]}"; do
-    for taxon in "${taxones[@]}"; do
-        zip_file="${gene}_${taxon}.zip"
-        target_dir="${gene}_${taxon}_genes"
-        
-        # Check if the .zip file exists
-        if [ -f "$zip_file" ]; then
-            # Create the folder if it does not exist
-            mkdir -p "$target_dir"
-            # Move the file to the folder
-            mv "$zip_file" "$target_dir/"
+mv ND1_Accipitriformes.zip ND1_Accipitriformes_genes/
+
+mv ODC_Accipitriformes.zip ODC_Accipitriformes_gene/
+
+mv ODC_Falconiformes.zip ODC_Falconiformes_gene/
+
+mv SWS1_Accipitriformes.zip SWS1_Accipitriformes_genes/
+
+mv SWS1_Falconiformes.zip SWS1_Falconiformes_genes/
+
 
 # Now we have to enter to the first folder: ND1_Accipitriformes_genes/ 
 
