@@ -13,9 +13,58 @@
 
 # 2. Phylogenetic Patterns
 
-graph TD
-    A[Aquila chrysaetos] --> B[Accipitridae Clade]
-    C[Haliaeetus leucocephalus] --> B
-    D[Harpia harpyja] --> B
-    E[Astur gentilis] --> B
-    F[Gymnogyps californianus] -->|Posible grupo externo| B
+* Monophyly of Accipitridae: All sequences from Aquila, Haliaeetus, Astur, and Harpia form a well-supported clade.
+
+* Uncertainty in internal relationships: Conflicting position of Gymnogyps californianus (California condor) in different genes.
+
+# 3. Falconiformes Tree 
+
+* Radiation of the genus Falco: Two major subclades are observed, with inconsistent species-species relationships between genes.
+
+* Absence of Polyborinae: Caracaras (e.g., Caracara) are not represented, limiting family resolution.
+
+# Key Discordance:
+
+## ND1 suggests Aquila-Haliaeetus proximity
+
+## ODC supports Haliaeetus-Harpia as a sister group
+
+# 4. Taxonomic Implications
+
+## Validation of Classical Hypothesis:
+
+* The data do not strongly support Accipitriformes and Falconiformes as sister orders
+
+* Higher affinity between Falco and Psittaciformes in nuclear trees
+
+## Delimitation Issues:
+
+* Cryptic species in Falco naumanni (different haplotypes in ND1)
+
+* Astur gentilis shows high intraspecific divergence
+
+# 5. Limitations and Recommendations
+
+## Problems Detected:
+
+* Taxonomic imbalance (overrepresentation of Falco)
+
+* Short/fragmented sequences in SWS1
+
+* Possible contamination in XM_069906901.0_Cymnojyp5_californianus
+
+## Future Improvements Studies:
+
+* Include additional nuclear genes (RAG1, FGB)
+
+* Use whole genomes to resolve deep nodes
+
+* Sampling critical taxa: Pandionidae (osprey) and Sagittariidae (secretary)
+
+# 6. Key Findings
+
+* Mitochondrial markers (ND1) show better resolution for recent relationships, while nuclear markers (ODC) are critical for deep divergences.
+
+* Signs of positive selection are detected in SWS1 in Falco peregrinus, consistent with visual adaptations for aerial hunting.
+
+* The current taxonomy of Falconiformes requires revision using phylogenomic approaches.
