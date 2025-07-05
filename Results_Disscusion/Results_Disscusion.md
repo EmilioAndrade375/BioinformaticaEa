@@ -13,7 +13,7 @@
 
 # 2. Phylogenetic Patterns
 
-![](D:\Emilio Andrade\Descargas\Ea_mermaid_20250705_871a8a.png)
+![](../Images/Ea_mermaid_20250705_871a8a.png)
 
 * Monophyly of Accipitridae: All sequences from Aquila, Haliaeetus, Astur, and Harpia form a well-supported clade.
 
